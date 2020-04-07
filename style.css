@@ -23,7 +23,7 @@
     overflow: hidden;
 	display: block;
 	
-		transition: all 0.6s ease;
+		transition: all 5s ease;
 		overflow: hidden;
 		font-size: 62px;
 		font-weight: 800;
@@ -58,7 +58,7 @@
         background: #000;
         z-index: -1;
         box-shadow: 0px 0px 120px #024768, 0px 0px 120px #04B0BC, 0px 0px 120px #33C9C7, 0px 0px 120px #94DFDD,0px 0px 120px #97D3D3;
-        transition: all 0.3s ease;
+        transition: all 2.5s ease;
         transform: rotate(-45deg);
         
 	

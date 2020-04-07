@@ -1,0 +1,65 @@
+.card-green{
+    background-color: rgb(151, 211, 211);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button2{
+	position: relative;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 300px;
+	
+	background: url(https://images.unsplash.com/photo-1538964173425-93884d739596?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e2f0390d79969aaf31e155bd1f7138b0&dpr=1&auto=format&fit=crop&w=1000&q=80&cs=tinysrgb) center center no-repeat;
+		background-size: cover;
+	
+    }
+    .button2_name{
+    overflow: hidden;
+	display: block;
+	
+		transition: all 0.6s ease;
+		overflow: hidden;
+		font-size: 62px;
+		font-weight: 800;
+		font-family: sans-serif;
+		position: absolute;
+		top: 45%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 0px;
+		color: white;
+		border-radius: 4px;
+		cursor: pointer;
+		
+		
+		}
+		.button2_name:hover::after{
+			box-shadow: 40px -20px 0px #024768,41px -20px 8px rgba(0,0,0,0.3), 80px 20px 0px #04B0BC,81px 20px 8px rgba(0,0,0,0.3), 120px 60px 0px #22CBCB,121px 60px 8px rgba(0,0,0,0.3), 160px 100px 0px #94DFDD,161px 100px 8px rgba(0,0,0,0.3),200px 120px 0px #97D3D3;
+		}
+		.button2_name:hover{
+			box-shadow: 4px 34px 24px rgba(0,0,0,0.3);
+		}
+	
+	
+	.button2_name:after{
+        content:'';
+        display: block;
+        position: absolute;
+        bottom:-50px;
+        left: -60px;
+        width: 90px;
+        height: 90px;
+        background: #000;
+        z-index: -1;
+        box-shadow: 0px 0px 120px #024768, 0px 0px 120px #04B0BC, 0px 0px 120px #33C9C7, 0px 0px 120px #94DFDD,0px 0px 120px #97D3D3;
+        transition: all 0.3s ease;
+        transform: rotate(-45deg);
+        
+	
+}
